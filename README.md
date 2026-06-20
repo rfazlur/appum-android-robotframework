@@ -207,3 +207,4 @@ Suite Teardown →
 
 Jika Appium CLI belum terinstal, test suite akan berhenti dengan pesan error dan panduan instalasi. Begitu juga jika tidak ada AVD yang tersedia.
 # appum-android-robotframework
+# appum-android-robotframework
