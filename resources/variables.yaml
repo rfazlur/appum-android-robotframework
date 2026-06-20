@@ -1,0 +1,21 @@
+app:
+  path: ${CURDIR}/../apps/Android-MyDemoAppRN.1.3.0.build-244.apk
+  package: com.saucelabs.mydemoapp.rn
+  activity: com.saucelabs.mydemoapp.rn.MainActivity
+  waitActivity: com.saucelabs.mydemoapp.rn.MainActivity
+
+device:
+  platformName: Android
+  platformVersion: "16"
+  deviceName: Android Emulator
+  automationName: UiAutomator2
+
+emulator:
+  avdName:
+  bootTimeout: 120
+  headless: false
+
+appium:
+  server: http://localhost:4723/wd/hub
+  implicitWait: 10
+  newCommandTimeout: 300

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+*.apk
+results/
+output.xml
+log.html
+report.html
+.DS_Store
